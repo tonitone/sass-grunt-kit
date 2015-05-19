@@ -1,0 +1,38 @@
+@import 'variables';
+@import 'includes';
+
+// your Style goes here
+
+body {
+    background: $background;
+    font: 100% $font-stack;
+    color: $secondary-color;
+}
+
+h1 {
+    color: $secondary-color;
+}
+
+p {
+    color: darken($primary-color, 30%);
+}
+
+blockquote {
+    display: block;
+    background: #fff;
+    padding: 15px 20px;
+    margin: 0 0 20px;
+    position: relative;
+
+    font-size: 16px;
+    line-height: 1.2;
+    color: $secondary-color;
+    text-align: justify;
+
+    /*Borders - (Optional)*/
+    border-left: 15px solid $secondary-color;
+    border-right: 2px solid $secondary-color;
+
+    @include box-shadow(2px, 2px, 15px, rgba($secondary-color, .9));
+
+}
