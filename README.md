@@ -20,24 +20,24 @@ The following components are included.
 ## Installation
 
 ```sh
-git clone https://github.com/tonitone/sasskit
-cd sasskit
+git clone https://github.com/tonitone/sass-grunt-kit
+cd sass-grunt-kit
 npm install
-grunt watch-dev
+grunt
 ```
 ## How to start
 Your working directory is **app/** and your build will be generated in the **dist/**-folder.
 
 ###Grunt commands
-watch and compile your files in the **app/-folder 
+Watch and compile your files in the **app/-folder 
 ```sh
 grunt watch-dev 
 ```
-start a server and sync every change in your **app/-folder** and compile them to your **dist/**-folder.
+Start a server and sync every change in your **app/-folder** and compile them to your **dist/**-folder.
 ```sh
 grunt watch-live
 ```
-generate a build
+Generate a build
 ```sh
 grunt build
 ```
