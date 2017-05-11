@@ -4,15 +4,15 @@ This is a basic-package for rapid website-prototyping based on **SASS** and **Gr
 The following components are included.
 * SASS
 * Grunt
- * grunt-browser-sync
- * grunt-contrib-copy
- * grunt-contrib-sass
- * grunt-contrib-uglify
- * grunt-contrib-watch
+  * grunt-browser-sync
+  * grunt-contrib-copy
+  * grunt-contrib-sass
+  * grunt-contrib-uglify
+  * grunt-contrib-watch
 * CSS Tools/Framework
- * https://github.com/matthieua/sass-css3-mixins
+  * https://github.com/matthieua/sass-css3-mixins
 * JS Lib
- * https://github.com/madrobby/zepto
+  * https://github.com/madrobby/zepto
 
 ## Requirements
 * npm
